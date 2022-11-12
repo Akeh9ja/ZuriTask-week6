@@ -46,4 +46,12 @@ img {
     position: absolute;
     top: 17%;
 }
-
+li {
+    opacity: 0;
+}
+li[data-active] {
+    opacity: 1;
+}
+.carousel-ctn:hover .btn {
+    opacity: 1;
+}
